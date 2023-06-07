@@ -1,2 +1,2 @@
-#!/bin/bas#!/bin/bash
+#!/bin/bas#!
 cp -u *.html ..
