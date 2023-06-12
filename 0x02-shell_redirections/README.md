@@ -15,5 +15,13 @@ cat /etc/passwd
 
 3-twofiles
 #!/bin/bash
-cat </etc/passwd> </etc/hosts>
+cat /etc/passwd /etc/hosts
+
+4-lastlines
+#!/bin/bash
+tail -n 10 /etc/passwd
+
+5-firstlines
+#!/bin/bash
+head -n 10 /etc/passwd
 
