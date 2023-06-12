@@ -32,3 +32,13 @@ head -n 3 iacta | tail -n 1
 7-file
 #!/bin/bash
 echo "Best School" > \\\*\\\\'"Best School"\'\\\\*$\\\?\\\*\\\*\\\*\\\*\\\*:\)
+
+8-cwd_state
+#!/bin/bash
+ls -la > ls_cwd_content
+
+9-duplicate_last_line
+#!/bin/bash
+last -n 1 iacta >> iacta
+
+
