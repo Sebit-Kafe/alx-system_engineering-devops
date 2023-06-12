@@ -48,3 +48,9 @@ find -type f . -name "*.js"
 11-directories
 #!/bin/bash
 find -type d -not -name "." | wc -l
+
+12-newest_files
+#!/bin/bash
+ls -t1 | head -n 10
+
+
