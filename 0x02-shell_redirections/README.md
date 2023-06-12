@@ -57,4 +57,6 @@ ls -t1 | head -n 10
 #!/bin/bash
 sort | unique -u
 
-
+14-findthatword
+#!/bin/bash
+grep -i "root"
