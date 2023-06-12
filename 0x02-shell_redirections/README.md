@@ -25,3 +25,7 @@ tail -n 10 /etc/passwd
 #!/bin/bash
 head -n 10 /etc/passwd
 
+6-third_line
+#!/bin/bash
+
+
