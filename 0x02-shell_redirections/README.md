@@ -53,4 +53,8 @@ find -type d -not -name "." | wc -l
 #!/bin/bash
 ls -t1 | head -n 10
 
+13-unique
+#!/bin/bash
+sort | unique -u
+
 
