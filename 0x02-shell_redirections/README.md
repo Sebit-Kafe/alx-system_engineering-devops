@@ -8,3 +8,12 @@ echo "Hello, World"
 1-confused_smiley
 #!/bin/bash
 echo ""(Ôo)'"
+
+2-hellofile
+#!/bin/bash
+cat /etc/passwd
+
+3-twofiles
+#!/bin/bash
+cat </etc/passwd> </etc/hosts>
+
