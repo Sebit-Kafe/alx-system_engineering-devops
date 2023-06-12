@@ -27,5 +27,8 @@ head -n 10 /etc/passwd
 
 6-third_line
 #!/bin/bash
+head -n 3 iacta | tail -n 1 
 
-
+7-file
+#!/bin/bash
+ 
