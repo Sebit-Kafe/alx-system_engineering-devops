@@ -43,6 +43,8 @@ last -n 1 iacta >> iacta
 
 10-no_more_js
 #!/bin/bash
-find -type f . -name "*.js" -delete
+find -type f . -name "*.js"
 
-
+11-directories
+#!/bin/bash
+find -type d -not -name "." | wc -l
