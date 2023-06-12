@@ -7,7 +7,7 @@ echo "Hello, World"
 
 1-confused_smiley
 #!/bin/bash
-echo ""(Ôo)'"
+echo "\"(Ôo)'"
 
 2-hellofile
 #!/bin/bash
@@ -31,4 +31,4 @@ head -n 3 iacta | tail -n 1
 
 7-file
 #!/bin/bash
- 
+echo "Best School" > \\\*\\\\'"Best School"\'\\\\*$\\\?\\\*\\\*\\\*\\\*\\\*:\)
