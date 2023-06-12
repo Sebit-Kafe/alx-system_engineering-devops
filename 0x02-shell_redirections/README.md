@@ -41,4 +41,8 @@ ls -la > ls_cwd_content
 #!/bin/bash
 last -n 1 iacta >> iacta
 
+10-no_more_js
+#!/bin/bash
+find -type f . -name "*.js" -delete
+
 
