@@ -1,2 +1,2 @@
 #!/bin/bash
-set GLOBAL BEST="School"
+set GLOBAL BEST=School
